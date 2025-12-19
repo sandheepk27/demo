@@ -6,6 +6,6 @@ def isList(nums: List[Any]) -> bool:
         if nums[i] != nums[i - 1]:
             nums[k] = nums[i]
             k += 1
-    return [nums, k]
+    return k
 
 print(isList([1,1,2,3,3,4,5,6]))
